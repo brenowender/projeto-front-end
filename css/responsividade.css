@@ -1,0 +1,82 @@
+/* ================= RESPONSIVIDADE MELHORADA ================= */
+
+
+/* Telas até 768px (celulares grandes e tablets) */
+@media (max-width: 768px) {
+
+
+.hero {
+height: 60vh;
+padding: 20px;
+background-position: center;
+}
+
+
+.hero h1 {
+font-size: 32px;
+}
+
+
+.hero h2 {
+font-size: 18px;
+}
+
+
+.btn-primary {
+padding: 10px 20px;
+font-size: 14px;
+}
+
+
+.grid-cardapio {
+grid-template-columns: 1fr 1fr;
+}
+
+
+.item {
+padding: 15px;
+}
+
+
+.item img {
+height: 150px;
+object-fit: cover;
+}
+}
+
+
+/* Telas até 480px (celulares pequenos) */
+@media (max-width: 480px) {
+
+
+.hero {
+height: 55vh;
+}
+
+
+.hero h1 {
+font-size: 26px;
+}
+
+
+.hero h2 {
+font-size: 14px;
+}
+
+
+.grid-cardapio {
+grid-template-columns: 1fr;
+}
+
+
+.item img {
+height: 180px;
+}
+
+
+.sobre, .cardapio, .promocoes, .delivery, .contato {
+padding: 40px 15px;
+}
+
+
+}
